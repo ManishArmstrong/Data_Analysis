@@ -41,4 +41,4 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON trans
 
 SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001";
 
-![SQL](https://github.com/user-attachments/assets/f38d0122-b3a7-4380-9d86-b95137bcadbb)
+
